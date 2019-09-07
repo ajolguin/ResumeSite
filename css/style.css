@@ -36,16 +36,9 @@ a {
   margin: 0;
 }
 
-section#entertainment {
+section#project2 {
   background: url(../img/section-bg.jpg) no-repeat bottom/cover;
-  padding: 10rem 0;
-}
-
-.contact {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  text-align: left;
+  padding: 2rem 0 2rem 0;
 }
 
 /* Showcase */
@@ -81,16 +74,20 @@ section#entertainment {
 }
 
 /* Internships */
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 730px){
   .desktop-only-size {
-    height: 85vh;
+    height: 80vh;
     width: 60vh;
   }
 }
 
 /* Projects */
 .swap-img {
-  margin-top: 20px;
+  margin-top: 0px;
+}
+
+.game-img{
+  margin-top: 0px;
 }
 
 #projects li {
@@ -98,6 +95,9 @@ section#entertainment {
   padding-bottom: 7px;
 }
 
+#projects p {
+  padding-top: 10px;
+}
 /* Contact */
 #contact img {
   border-style: solid;
