@@ -80,6 +80,29 @@ section#entertainment {
   display: none;
 }
 
+/* Internships */
+@media only screen and (min-width: 992px){
+  .desktop-only-size {
+    height: 85vh;
+    width: 60vh;
+  }
+}
+
+/* Projects */
+.swap-img {
+  margin-top: 20px;
+}
+
+#projects li {
+  font-size: 1rem;
+  padding-bottom: 7px;
+}
+
+/* Contact */
+#contact img {
+  border-style: solid;
+}
+
 /* Footer */
 footer .footer-cols {
   display: grid;
@@ -210,6 +233,10 @@ nav a#openup {
 
   .hide-on-big {
     display: inline;
+  }
+
+  .swap-img {
+    height: 35vh;
   }
 
   #showcase {
