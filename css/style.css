@@ -86,8 +86,10 @@ section#project2 {
   margin-top: 0px;
 }
 
-.game-img{
+.game-vid{
   margin-top: 0px;
+  height: 80%;
+  width: 80%;
 }
 
 #projects li {
