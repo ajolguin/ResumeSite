@@ -26,6 +26,10 @@ a {
   color: #ccc;
 }
 
+.title {
+  text-decoration: underline;
+}
+
 /* Section */
 .section {
   padding: 2rem 0;
@@ -76,14 +80,22 @@ section#project2 {
 /* Internships */
 @media only screen and (min-width: 730px){
   .desktop-only-size {
-    height: 80vh;
-    width: 60vh;
+    height: 70vh;
+    width: 50vh;
+  }
+
+  .desktop-only-size2 {
+    height: 60%;
+    width: 60%;
   }
 }
+
 
 /* Projects */
 .swap-img {
   margin-top: 0px;
+  height: 60%;
+  width: 60%;
 }
 
 .game-vid{
@@ -108,26 +120,6 @@ section#project2 {
 }
 
 /* Footer */
-footer .footer-cols {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 2rem;
-  text-align: left;
-  font-size: 14px;
-}
-
-footer .footer-cols ul {
-  list-style: none;
-}
-
-footer .footer-cols ul li:first-child {
-  font-size: 1.2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: #444 solid 1px;
-  margin-bottom: 1rem;
-}
-
 footer .footer-bottom {
   background: #333;
   padding: 1rem;
@@ -240,7 +232,18 @@ nav a#openup {
   }
 
   .swap-img {
-    height: 35vh;
+    height: 100%;
+    width: 100%;
+  }
+
+  .game-vid {
+    height: 100%;
+    width: 100%;
+  }
+
+  #contact img {
+    height: 100%;
+    width: 100%;
   }
 
   #showcase {
@@ -252,11 +255,11 @@ nav a#openup {
   }
 
   #showcase h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #showcase h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   nav {
