@@ -114,9 +114,14 @@ section#project2 {
 }
 /* Contact */
 #contact img {
-  border-style: solid;
+  border-radius: 50%;
   height: 50%;
   width: 50%;
+  margin-top: 2rem;
+}
+
+#contact ul {
+  padding-inline-start: 0px;
 }
 
 /* Footer */
@@ -244,6 +249,7 @@ nav a#openup {
   #contact img {
     height: 100%;
     width: 100%;
+    border-radius: 50%;
   }
 
   #showcase {
