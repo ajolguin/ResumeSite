@@ -40,6 +40,11 @@ a {
   margin: 0;
 }
 
+section#projects {
+  background: url(../img/spotifybg.jpg) no-repeat bottom/cover;
+  padding: 2rem 0 2rem 0;
+}
+
 section#project2 {
   background: url(../img/section-bg.jpg) no-repeat bottom/cover;
   padding: 2rem 0 2rem 0;
@@ -124,11 +129,6 @@ section#project2 {
   padding-inline-start: 0px;
 }
 
-/* Footer */
-footer .footer-bottom {
-  background: #333;
-  padding: 1rem;
-}
 
 /* Utility Classes */
 .container {
@@ -331,9 +331,6 @@ nav a#openup {
     grid-template-columns: 1fr;
   }
 
-  footer .footer-cols {
-    display: none;
-  }
 }
 
 @media screen and (max-height: 580px) {
